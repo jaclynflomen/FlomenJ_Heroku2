@@ -3,13 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
-
-router.get('/:user', function(req, res, next) {
-  console.log('data:', data);
-  console.log('user:', req.params.user);
-  res.render('userpage', {title: 'Express'});
+  res.render('index', { title: 'Express', message: "Welcome to your first Express app" });
 });
 
 module.exports = router;
