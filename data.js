@@ -1,18 +1,20 @@
 const data = {
-    name: "Jaclyn",
-    role: "student",
+    name: "Trevor",
+    role: "confuserator",
 
-    user1:{
-        name:"user",
-        role:"developer",
+    user1: {
+        name: "user",
+        role: "developer",
         bio: "some bio info goes here",
         bioPic: ""
     },
 
-    user2:{
-        name:"user2",
-        role:"designer",
+    user2: {
+        name: "user2",
+        role: "designer",
         bio: "some bio info goes here",
         bioPic: ""
     }
-}
+};
+
+module.exports = data;
