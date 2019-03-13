@@ -6,7 +6,7 @@ const data = {
         name: "user",
         role: "developer",
         bio: "some bio info goes here",
-        bioPic: ""
+        bioPic: "sun.jpg"
     },
 
     user2: {
